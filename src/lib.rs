@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn it_works() {
-        assert_eq!(1, 1);
+        println!("{}",helper::helpers::apply_escape_sequence("random string",31));
     }
 }
